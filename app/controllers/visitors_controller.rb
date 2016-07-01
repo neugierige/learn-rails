@@ -5,8 +5,8 @@ class VisitorsController < ApplicationController
 		# render 'visitors/new'
 		# render 'visitors/new', :layout => false
 		# render 'visitors/new', :layout => 'special'
-		flash.now[:notice] = 'Welcome!'
-		flash.now[:alert] = 'My birthday is soon.'
+		# flash.now[:notice] = 'Welcome!'
+		# flash.now[:alert] = 'My birthday is soon.'
 	end
 
 end
